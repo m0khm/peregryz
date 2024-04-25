@@ -6,7 +6,7 @@ public:
     Fraction(long long int x = 0, long long int y = 1): x(x), y(y) {}
     void show() { 
         cout << x << "/" << y; 
-    }
+    } 
     void read() {
         char c;
         cin >> x >> c >> y;
